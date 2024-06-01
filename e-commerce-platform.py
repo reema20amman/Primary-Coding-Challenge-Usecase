@@ -211,7 +211,7 @@ print(reviews_df)
 
 # Write DataFrames to SQL
 # Create an SQLite engine 
-engine = create_engine('sqlite:///:memory:')
+engine = create_engine('C:/Users/USER/Downloads/Chinook_Sqlite.sqlite.db')
 
 # Write DataFrames to SQL tables
 orders_df.to_sql('orders', con=engine, index=False, if_exists='replace')
