@@ -25,4 +25,8 @@ This repository contains a solution for a primary coding challenge use case. The
     cd Primary-Coding-Challenge-Usecase
     ```
 
-3. Run the Python scripts (`sqlite.py`, `array-of-nested-objects.py` and `employee-data.py`) using a Jupiter notebook in Anaconda navigator.
+3. View SQLite database (`Chinook_Sqlite.sqlite.db`) using DBeaver.
+
+4. View CSV file (`business-employment-data.csv`) using excel sheet.
+
+5. Run the Python scripts (`sqlite.py`, `array-of-nested-objects.py` and `employee-data.py`) using a Jupiter notebook in Anaconda navigator.
