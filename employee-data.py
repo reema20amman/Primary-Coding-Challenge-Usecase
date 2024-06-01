@@ -1,4 +1,5 @@
 import pandas as pd
+import sqlite3
 from sqlalchemy import create_engine
 from sqlalchemy.exc import SQLAlchemyError
 
