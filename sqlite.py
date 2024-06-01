@@ -50,4 +50,4 @@ df = pd.DataFrame(output)
 df.rename(columns={'Name_x': 'count_values'}, inplace=True)
 df    #display dataframe
 # executing udf_write function to write to sql
-table_data = udf_write(df, 'new_table')
+table_data = udf_write(df, 'music_table')
