@@ -102,7 +102,7 @@ for i in data:
     output = flatten_json(i)
 #     display(output)
 
-df = pd.DataFrame([output])
-display(df)
+    df = pd.DataFrame([output])
+    display(df)
 
 table_data = udf_data_value(df, 'new_table')
