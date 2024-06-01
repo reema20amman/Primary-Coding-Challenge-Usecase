@@ -81,7 +81,7 @@ pd.set_option('display.max_columns', None)
 
 def udf_data_value(data, table_name):
     cnx = sqlite3.connect('C:/Users/USER/Downloads/Chinook_Sqlite.sqlite.db')
-    data.to_sql(cnx, table_name)
+    data.to_sql(table_name, cnx)
 
     
 def flatten_json(json_data, parent_key='', sep='_'):
